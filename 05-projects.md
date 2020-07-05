@@ -1,5 +1,4 @@
 ---
-layout: competency
 title: Projects
 ID: Projects
 description: You will be working within, and often leading, projects of various types, sizes and complexity 
