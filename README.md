@@ -15,9 +15,10 @@ Descriptors use [Bloom's taxonomy of verbs](https://tips.uark.edu/using-blooms-t
 
 ## File Structure
 
-Within the top section of the page you will find the data for the framework:
+Within the top section of the page you will find the data for the framework. It is stored between three dashes (---):
 
-- layout: designed to be used by Jekyll or another static site generator to choose the page layout to use.
+```
+---
 - title: The competency area
 - ID: The ID code for the competency area
 - description: The description of the competency area
@@ -27,6 +28,8 @@ Within the top section of the page you will find the data for the framework:
   - L1: The descriptor for level 1
   - L2: The descriptor for level 2
   - L3: The descriptor for level 3
+---
+```
 
 ## Contributions
 
