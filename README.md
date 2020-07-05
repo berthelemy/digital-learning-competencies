@@ -1,5 +1,5 @@
-# elearning-compentencies
-A competency framework for the elearning industry
+# eLearning Competency Framework
+A competency framework for and by the elearning industry
 
 ## Structure
 
@@ -13,7 +13,13 @@ Each level contains text which describes what a person should be able to **do** 
 
 Descriptors use [Bloom's taxonomy of verbs](https://tips.uark.edu/using-blooms-taxonomy/)
 
+## Contributions
+
 If you would like to contribute, please either:
 
 1. Make comments within the [issues](https://github.com/Wyver-Solutions/_elearning-competencies/issues) section
-2. Fork this git repository
+2. Clone this git repository, make changes, and then submit a pull request
+
+## Commercial licenses
+
+If you would like to use the competency framework commercially, please contact mberthelemy@wvyersolutions.co.uk
