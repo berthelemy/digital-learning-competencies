@@ -1,5 +1,4 @@
 ---
-layout: competency
 title: People
 ID: People
 description: You will be translating between technical and non-technical audiences - and working at multiple levels within your organisation. 
