@@ -1,5 +1,4 @@
 ---
-layout: competency
 title: Products
 ID: Products
 description: Whether acting as Product Owner for a commercial product, or an internal Product Owner, you will need considerable negotiating and prioritization skills.
