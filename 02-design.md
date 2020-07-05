@@ -1,5 +1,4 @@
 ---
-layout: competency
 title: Learning solution design
 ID: Design
 description: You are likely to be the person asked to design a solution that will meet your customer's needs - based on a strong theoretical and practical background.
