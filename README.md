@@ -26,4 +26,6 @@ If you would like to use the competency framework commercially, please contact m
 
 ## Github for non-developers
 
+[Watch on Youtube](https://www.youtube.com/watch?v=9XhbYHcaT9k)
+
 [![Github for non-developers](https://img.youtube.com/vi/9XhbYHcaT9k/0.jpg)](https://www.youtube.com/watch?v=9XhbYHcaT9k)
