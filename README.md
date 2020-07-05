@@ -1,7 +1,7 @@
 # eLearning Competency Framework
 A competency framework for and by the elearning industry
 
-## Structure
+## Framework Structure
 
 - Competency area
   - Sub-category
@@ -12,6 +12,21 @@ A competency framework for and by the elearning industry
 Each level contains text which describes what a person should be able to **do** who is working at that level in that area.
 
 Descriptors use [Bloom's taxonomy of verbs](https://tips.uark.edu/using-blooms-taxonomy/)
+
+## File Structure
+
+Within the top section of the page you will find the data for the framework:
+
+- layout: designed to be used by Jekyll or another static site generator to choose the page layout to use. ** DO NOT CHANGE **
+- title: The competency area
+- ID: The ID code for the competency area
+- description: The description of the competency area
+- items: The list of sub-categories
+  - ID: The ID code for the sub-category
+  - name: The name of the sub-category
+  - L1: The descriptor for level 1
+  - L2: The descriptor for level 2
+  - L3: The descriptor for level 3
 
 ## Contributions
 
