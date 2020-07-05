@@ -38,7 +38,9 @@ If you would like to contribute, please either:
 1. Make comments within the [issues](https://github.com/Wyver-Solutions/_elearning-competencies/issues) section
 2. Clone this git repository, make changes, and then submit a pull request
 
-## Commercial licenses
+## Licensing
+
+The competency framework uses a [Creative Commons licence](license.md).
 
 If you would like to use the competency framework commercially, please contact mberthelemy@wvyersolutions.co.uk
 
