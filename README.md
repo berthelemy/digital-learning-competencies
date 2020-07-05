@@ -17,7 +17,7 @@ Descriptors use [Bloom's taxonomy of verbs](https://tips.uark.edu/using-blooms-t
 
 Within the top section of the page you will find the data for the framework:
 
-- layout: designed to be used by Jekyll or another static site generator to choose the page layout to use. ** DO NOT CHANGE **
+- layout: designed to be used by Jekyll or another static site generator to choose the page layout to use.
 - title: The competency area
 - ID: The ID code for the competency area
 - description: The description of the competency area
