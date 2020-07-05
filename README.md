@@ -31,6 +31,10 @@ Within the top section of the page you will find the data for the framework. It 
 ---
 ```
 
+## Note to developers
+
+This set of files is designed primarily to work as a [Jekyll Collection](https://jekyllrb.com/docs/collections/), but can also be used in any system which can iterate over files and over the YAML data contained within them.
+
 ## Contributions
 
 If you would like to contribute, please either:
