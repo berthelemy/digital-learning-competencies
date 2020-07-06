@@ -10,9 +10,9 @@ items:
   L3: Able to use non-technical language to help decision-makers choose between complex learning and technical solutions
 - ID: Pe.02
   name: Talking to technical people
-  L1: Able to communicate requirements
-  L2: 
-  L3: Able to 
+  L1: Able to explain the meanings of key technical terms used within the elearning industry 
+  L2: Able to ask questions of IT terms using terms they will understand
+  L3: Able to communicate requirements in terms that will be understood by IT teams
 - ID: Pe.03
   name: Communicating in writing
   L1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sollicitudin lectus velit, et volutpat erat venenatis ut. Sed a erat lacus. Donec venenatis egestas egestas.
