@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<p>{{ page.description }}</p>
+
+<p><a href="https://github.com/Wyver-Solutions/_elearning-competencies" target="_blank">View on Github</a> (opens in a new tab)</p>
+
+
+{% assign competencies = site.elearning-competencies | sort: "category" %}
+{% for c in competencies %}
+<div class="row">
+  <div class="col-12">
+  <h2>{{ c.title }}</h2>
+  </div>
+  </div>
+  <div class="row">
+  {% for item in c.items %}
+
+
+
+      <div class="col-md-3">
+
+        <h3>{{ item.name }}</h3>
+      </div>
+      <div class="col-md-3">
+        <h4>Level 1</h4>
+        <p>{{ item.L1 }}</p>
+      </div>
+      <div class="col-md-3">
+        <h4>Level 2</h4>
+        <p>{{ item.L2 }}</p>
+      </div>
+      <div class="col-md-3">
+        <h4>Level 3</h4>
+        <p>{{ item.L3 }}</p>
+      </div>
+
+
+    {% endfor %}
+    </div>
+{% endfor %}

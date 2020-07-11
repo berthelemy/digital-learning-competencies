@@ -1,0 +1,17 @@
+<p><strong>Challenges</strong></p>
+<ul>      
+        {% for c in challenges %}
+            {% for competency in c.competencies %}
+                {% assign compID = competency | slice: 0,4 %}
+                {% if i.ID == compID %}
+                  {% assign level = competency | slice: -2,2 %}
+                  {% if level == include.levelCheck %}
+
+                    <li><a href="{{ site.baseurl}}{{ c.url }}" data-featherlight="{{ site.baseurl }}{{ c.url }} #challenge">{{ c.title }}</a></li>
+
+                    
+                  {% endif %}
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+      </ul>

@@ -1,0 +1,11 @@
+# To do
+
+- Think about the name and URL
+- Improve the UX of the self-assessment - use https://kenwheeler.github.io/slick/
+- Add Name to form and spidergram
+- Think about a licensed model for coaches and assessors
+
+## done
+
+- Move competencies to own repo and incorporate as a sub-module - DONE
+- Make the canvas spidergram appear in a lightbox - DONE

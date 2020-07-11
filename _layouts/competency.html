@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<!--<p><a href="https://github.com/Wyver-Solutions/wyveracademy/blob/gh-pages/_collections/{{ page.path }}">Comment on Github</a></p>-->
+<p>{{ page.description }}</p>
+
+<p><a href="{{ site.baseurl }}/elearning-competencies/print">Printable version - all competencies</a></p>
+
+<p><a href="https://github.com/Wyver-Solutions/_elearning-competencies/issues" target="_blank">Comment on Github</a> (opens in a new tab)</p>
+
+<table id="competencies" width="100%" class="table table-bordered">
+  <thead class="thead-dark">
+    <th class="all">Sub-category</th>
+    <th class="min-tablet-l" width="30%">{{ site.levels.level1.ID }} - {{ site.levels.level1.name }}</th>
+    <th class="min-tablet-l" width="30%">{{ site.levels.level2.ID }} - {{ site.levels.level2.name }}</th>
+    <th class="min-tablet-l" width="30%">{{ site.levels.level3.ID }} - {{ site.levels.level3.name }}</th>
+  </thead>
+  <tbody>
+{% assign challenges = site.challenges %}
+{% for i in page.items %}
+  <tr>
+    <td class="align-top"><strong>{{ i.name }}</strong></td>
+    <td class="align-top">{{ i.L1 }}</td>
+    <td class="align-top">{{ i.L2 }}</td>
+    <td class="align-top">{{ i.L3 }}</td>
+  </tr>
+  <!--<tr>
+    <td>&nbsp;</td>
+    <td>{% include small-challenge-list.html challenges=challenges levelCheck="L1" %}</td>
+    <td>{% include small-challenge-list.html challenges=challenges levelCheck="L2" %}</td>
+    <td>{% include small-challenge-list.html challenges=challenges levelCheck="L3" %}</td>
+  </tr>-->
+  {% endfor %}
+  </tbody>
+</table>
+<div class="text-center" >
+<a href="{{ site.baseurl }}/assessment"><button type="button" class="btn btn-primary">Assess yourself against the competency framework</button></a>
+</div>

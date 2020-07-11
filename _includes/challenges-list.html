@@ -1,0 +1,37 @@
+{% assign challenges = site.challenges %}
+<ul>
+{% for c in challenges %}
+
+  <li><a href="{{ site.baseurl }}{{ c.url}}">{{ c.title }}</a></li>
+
+
+{% endfor %}
+</ul>
+
+<h3>Suggest a challenge</h3>
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="challengeTitle">Title</label>
+    <input type="text" class="form-control" id="challengeTitle" placeholder="Challenge title">
+  </div>
+  <div class="form-group">
+    <textarea id="challengeDesc" name="message" rows="10" cols="30">
+Description of the challenge
+</textarea>
+    
+    
+  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+    I agree that the Wyver Solutions Ltd can use and adapt this challenge, and can contact me if there are any questions.
+  </label>
+</div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>

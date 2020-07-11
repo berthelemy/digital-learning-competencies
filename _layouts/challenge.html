@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<!--<p><a href="https://github.com/Wyver-Solutions/wyveracademy/blob/gh-pages/_collections/{{ page.path }}">Edit on Github</a></p>-->
+
+<div id="challenge" class="challenge">
+    <h3>{{ page.title }}</h3>
+    {{ content }}
+
+    {% if page.youtubeCode %}
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.youtubeCode }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    {% endif %}
+</div>
+
+<h2>Competencies covered</h2>
+
+<ul>
+{% for c in page.competencies %}
+
+    {% assign competencies = site.competencies %}
+        {% for sc in competencies %}
+            {% for i in sc.items %}
+                {% assign compID = c | slice: 0,4 %}
+                {% if i.ID == compID %}
+                {% assign level = c | slice: -2,2 %}
+                <li><a href="{{ sc.url }}">{{ sc.title }}</a>: {{ c }} - {{ i.name }}: {{ i[level] }}</li>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+
+{% endfor %}
+</ul>
+
+  
