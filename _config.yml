@@ -16,6 +16,7 @@
 title: eLearning Competency Framework
 organisation: Wyver Solutions Ltd
 orgurl: https://www.wyversolutions.co.uk
+academy-url: https://www.wyversolutions.co.uk/academy
 email: mberthelemy@wyversolutions.co.uk
 description: Learn to become a learning technology consultant
 baseurl: "/elearning-competencies" # the subpath of your site, e.g. /blog
@@ -66,10 +67,10 @@ include: ['_pages']
 levels:
     level1:
         ID: Level 1
-        name: Digital Learning Foundation
+        name: Foundation
     level2:
         ID: Level 2
-        name: Digital Learning Practitioner
+        name: Practitioner
     level3:
         ID: Level 3
-        name: Digital Learning Advanced
+        name: Advanced
