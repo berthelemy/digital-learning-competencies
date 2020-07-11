@@ -44,7 +44,7 @@ If you would like to contribute, please either:
 
 ## Licensing
 
-The competency framework uses a [Creative Commons licence](LICENSE.md).
+The competency framework uses a non-commercial [Creative Commons licence](LICENSE.md).
 
 If you would like to use the competency framework commercially, please contact mberthelemy@wvyersolutions.co.uk
 
