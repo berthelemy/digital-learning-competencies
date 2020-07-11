@@ -1,5 +1,7 @@
 # eLearning Competency Framework
-A competency framework for and by the elearning industry
+A competency framework for and by the elearning industry.
+
+It is designed to be human and machine readable.
 
 ## Framework Structure
 
