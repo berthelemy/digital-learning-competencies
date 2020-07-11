@@ -19,7 +19,7 @@ orgurl: https://www.wyversolutions.co.uk
 academy-url: https://www.wyversolutions.co.uk/academy
 email: mberthelemy@wyversolutions.co.uk
 description: Learn to become a learning technology consultant
-baseurl: "/elearning-competencies" # the subpath of your site, e.g. /blog
+baseurl: "/_elearning-competencies" # the subpath of your site, e.g. /blog
 #url: "https://wyversolutions.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
