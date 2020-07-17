@@ -1,6 +1,14 @@
 # eLearning Competency Framework
 A competency framework for and by the elearning industry
 
+## Using within your project
+
+To incorporate the competencies into your project, you can add them as a git submodule:
+
+`git submodule add https://github.com/Wyver-Solutions/_elearning-competencies _elearning-competencies`
+
+The underscore is so they work directly as a [https://jekyllrb.com/docs/collections/](Jekyll collection). You will need to run the above command inside your Collections directory, and then use `git pull` inside the submodule whenever you want to update.
+
 ## Framework Structure
 
 - Competency area
