@@ -41,6 +41,16 @@ body {
     border-bottom: 20px solid #F70000;
 }
 
+a[href^="http"]:not([href*="elearningcompetencies.info"]):after {
+  content: "\f08e";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: none;
+  padding-left: 4px;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -53,7 +63,7 @@ body {
 }
 
 canvas#radarChart {
-          
+
 }
 
 .footer {
