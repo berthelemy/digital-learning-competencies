@@ -42,6 +42,7 @@ defaults:
       type: "elearning-competencies"
     values:
       layout: "competency"
+      permalink: /:title
   - scope:
       path: ""
       type: "challenges"
