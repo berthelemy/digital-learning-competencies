@@ -16,7 +16,7 @@ layout: default
     <th class="min-tablet-l" width="30%">{{ site.levels.level3.ID }} - {{ site.levels.level3.name }}</th>
   </thead>
   <tbody>
-{% assign challenges = site.challenges %}
+
 {% for i in page.items %}
   <tr>
     <td class="align-top"><strong>{{ i.name }}</strong></td>
@@ -24,12 +24,7 @@ layout: default
     <td class="align-top">{{ i.L2 }}</td>
     <td class="align-top">{{ i.L3 }}</td>
   </tr>
-  <!--<tr>
-    <td>&nbsp;</td>
-    <td>{% include small-challenge-list.html challenges=challenges levelCheck="L1" %}</td>
-    <td>{% include small-challenge-list.html challenges=challenges levelCheck="L2" %}</td>
-    <td>{% include small-challenge-list.html challenges=challenges levelCheck="L3" %}</td>
-  </tr>-->
+  
   {% endfor %}
   </tbody>
 </table>

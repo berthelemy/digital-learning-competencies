@@ -33,8 +33,6 @@ plugins:
 collections:
     elearning-competencies:
         output: true
-    challenges:
-        output: true
 
 defaults:
   - scope:
@@ -43,11 +41,6 @@ defaults:
     values:
       layout: "competency"
       permalink: /:title
-  - scope:
-      path: ""
-      type: "challenges"
-    values:
-      layout: "challenge"
 
 collections_dir: _collections
 
