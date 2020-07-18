@@ -21,11 +21,12 @@ items:
 - ID: D.04
   name: Activity design
   L1: Able to write learning objectives that use Bloom's taxonomy
-  L2: Able to identify where learners will struggle with the learning objectives 
+  L2: Able to identify where learners will struggle with the learning objectives
   L3: Able to define activities that help people to practice achieving the learning objectives   
 - ID: D.05
   name: Accessible design
   L1: Able to describe how differences in motor, cognitive, visual and auditory abilities can cause problems for people in online learning
-  L2: Able to explain how to test online materials and systems for accessibility 
+  L2: Able to explain how to test online materials and systems for accessibility
   L3: Able to design learning materials and/or systems that take into account relevant differences in ability
 ---
+Note: Only edit the data in between the dashes
