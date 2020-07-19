@@ -24,13 +24,13 @@ permalink: using
 
   <p>Descriptors use Bloom's taxonomy of verbs. See: <a href="https://tips.uark.edu/using-blooms-taxonomy/" target="_blank">https://tips.uark.edu/using-blooms-taxonomy/</a></p>
 
-  <h2>File Structure</h2>
+  <h2>For developers</h2>
 
-  <p>Each competency area is described within a single file.</p>
+  <p>The competency framework is held within a <a href="https://github.com/Wyver-Solutions/_elearning-competencies" target="_blank">git repository</a>.
 
-  <p>These files use the YAML format, which is a way of structuring data in a human &amp; computer-readable way.</p>
+  <p>The repository contains a single YAML file describing each competency area.</p>
 
-  <p>Within the top section of the file you will find the data for the framework. It is stored between three dashes (---):</p>
+  <p>Within the top section of the file (between the three dashes: --- ) you will find the data for the framework:</p>
 
   <pre><code>
   ---
@@ -48,9 +48,7 @@ permalink: using
   ---
   </code></pre>
 
-  <h2>Note to developers</h2>
-
-  <p>This set of files is designed primarily to work as a <a href="https://jekyllrb.com/docs/collections/" target="_blank">Jekyll collection</a>, but can also be used in any system which can iterate over files and over the YAML data contained within them.</p>
+  <p>The files are designed primarily to work as a Jekyll collection (<a href="https://jekyllrb.com/docs/collections/" target="_blank">Docs</a>), but can also be used in any system which can iterate over files and over the YAML data contained within them.</p>
 
   <p>To incorporate the competencies into your project, you can add them as a git submodule:</p>
   <p><code>git submodule add https://github.com/Wyver-Solutions/_elearning-competencies _elearning-competencies</code></p>
