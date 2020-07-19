@@ -40,7 +40,7 @@ defaults:
       type: "elearning-competencies"
     values:
       layout: "competency"
-      permalink: /:title
+      permalink: /competencies/:title
 
 collections_dir: _collections
 
