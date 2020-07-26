@@ -1,5 +1,5 @@
-# eLearning Competency Framework
-A competency framework for and by the elearning industry.
+# Digital Learning Competency Framework
+A competency framework for and by the digital learning industry.
 
 It is designed to be human and machine readable.
 
@@ -7,7 +7,7 @@ It is designed to be human and machine readable.
 
 To incorporate the competencies into your project, you can add them as a git submodule:
 
-`git submodule add https://github.com/Wyver-Solutions/_elearning-competencies _elearning-competencies`
+`git submodule add https://github.com/Wyver-Solutions/_digital-learning-competencies _digital-learning-competencies`
 
 The underscore is so they work directly as a [https://jekyllrb.com/docs/collections/](Jekyll collection). You will need to run the above command inside your Collections directory, and then use `git pull` inside the submodule whenever you want to update.
 
@@ -49,7 +49,7 @@ This set of files is designed primarily to work as a [Jekyll Collection](https:/
 
 If you would like to contribute, please either:
 
-1. Make comments within the [issues](https://github.com/Wyver-Solutions/_elearning-competencies/issues) section
+1. Make comments within the [issues](https://github.com/Wyver-Solutions/_digital-learning-competencies/issues) section
 2. Clone this git repository, make changes, and then submit a pull request
 
 ## Licensing

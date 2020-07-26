@@ -26,7 +26,7 @@
 
           <a class="dropdown-item" href="{{ site.baseurl }}/competencies">View all competency areas</a>
           <div class="dropdown-divider"></div>
-          {% assign competencies = site.elearning-competencies | sort: "category" %}
+          {% assign competencies = site.digital-learning-competencies | sort: "category" %}
           {% for c in competencies %}
           <a class="dropdown-item" href="{{ site.baseurl }}{{ c.url}}">{{ c.title }}</a>
           {% endfor %}

@@ -37,4 +37,4 @@ Projects:
 - Able to know when to use "agile" and when not
 - Able to learn lessons and make changes
 
-#Consultancy #EdTech #Elearning
+#Consultancy #EdTech #Digitallearning
