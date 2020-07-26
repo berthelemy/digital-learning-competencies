@@ -1,3 +1,6 @@
 [submodule "_collections/_elearning-competencies"]
 	path = _collections/_elearning-competencies
 	url = https://github.com/Wyver-Solutions/_elearning-competencies
+[submodule "_collections/_digital-learning-competencies"]
+	path = _collections/_digital-learning-competencies
+	url = https://github.com/Wyver-Solutions/_digital-learning-competencies
