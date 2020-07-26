@@ -1,2 +1,2 @@
-{%- assign competencies = site.digital-learning-competencies | jsonify -%}
-{{ competencies }}
+{%- assign j = site.data.competencies | sort | jsonify -%}
+{{ j }}

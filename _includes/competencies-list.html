@@ -1,13 +1,42 @@
-{% assign competencies = site.digital-learning-competencies | sort: "category" %}
-{% for c in competencies %}
+<div class="col-12">
+<p>{{ page.description }}</p>
+{% assign competencies = site.data.competencies | sort %}
 
-  <div class="row">
-    <div class="col-3">
-      <p><strong><a href="{{ site.baseurl }}{{ c.url}}">{{ c.title }}</a></strong></p>
-    </div>
-    <div class="col-9">
-      <p>{{ c.description }}</p>
-    </div>
+{% for competency_hash in competencies %}
+{% assign file = competency_hash[0] %}
+{% assign c = competency_hash[1] %}
+
+
+<div class="row">
+  <div class="col-12">
+  <h2>{{ c.title }}</h2>
+  <p>{{ c.description }}</p>
   </div>
+  </div>
+  <div class="row">
+    <table id="competencies-{{ file }}" width="100%" class="table table-bordered">
+      <thead class="thead-dark">
+        <th class="all">Sub-category</th>
+        <th class="min-tablet-l" >{{ site.levels.level1.ID }} - {{ site.levels.level1.name }}</th>
+        <th class="min-tablet-l" >{{ site.levels.level2.ID }} - {{ site.levels.level2.name }}</th>
+        <th class="min-tablet-l" >{{ site.levels.level3.ID }} - {{ site.levels.level3.name }}</th>
+      </thead>
+      <tbody>
+  {% for i in c.items %}
 
+    <tr>
+      <td class="align-top"><strong>{{ i.name }}</strong></td>
+      <td class="align-top">{{ i.L1 }}</td>
+      <td class="align-top">{{ i.L2 }}</td>
+      <td class="align-top">{{ i.L3 }}</td>
+    </tr>
+
+    {% endfor %}
+    </tbody>
+  </table>
+
+
+
+    </div>
 {% endfor %}
+</div>

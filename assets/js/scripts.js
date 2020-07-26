@@ -39,7 +39,7 @@ $("button#start").on('click', function() {
 });
 
 
-  $('#competencies').DataTable({
+  $('table').DataTable({
     "paging": false,
     "ordering": false,
     "info": false,
