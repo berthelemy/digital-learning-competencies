@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Digital Learning Competency Framework
 organisation: Mark Berthelemy
+url: https://digitallearningcompetencies.info
 orgurl: https://mark.berthelemy.net
 academy-url: https://www.wyversolutions.co.uk/academy
 email: mark@berthelemy.net
