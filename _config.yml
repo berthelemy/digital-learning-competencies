@@ -20,7 +20,7 @@ orgurl: https://mark.berthelemy.net
 academy-url: https://www.wyversolutions.co.uk/academy
 email: mark@berthelemy.net
 description: Key skills for digital learning professionals working in corporate learning and development or higher education
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/digital-learning-competencies" # the subpath of your site, e.g. /blog
 #url: "https://mark.berthelemy.net" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
